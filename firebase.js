@@ -1,14 +1,14 @@
 require("firebase/firestore");
 import firebase from "firebase";
 
-var firebaseConfig = {
-  apiKey: "AIzaSyB8g128u6CZlhgbiZajmPRPjSvPEnhiPfM",
-  authDomain: "fincareforlife-test.firebaseapp.com",
-  databaseURL: "https://fincareforlife-test.firebaseio.com",
-  projectId: "fincareforlife-test",
-  storageBucket: "fincareforlife-test.appspot.com",
-  messagingSenderId: "795724241676",
-  appId: "1:795724241676:web:e7de5de78effed8515c729",
+const firebaseConfig = {
+  apiKey: "AIzaSyCxBl3gDMENkZET3jikPGaqO0Kd98jo_rQ",
+  authDomain: "postit-2cc09.firebaseapp.com",
+  databaseURL: "https://postit-2cc09.firebaseio.com",
+  projectId: "postit-2cc09",
+  storageBucket: "postit-2cc09.appspot.com",
+  messagingSenderId: "128233009309",
+  appId: "1:128233009309:web:eef214d7f5a1b27e29a474"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
