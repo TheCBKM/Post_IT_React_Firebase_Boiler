@@ -34,6 +34,7 @@ export default function (props) {
       .set({
         title,
         content,
+        uid:user.uid
       })
       .then(() => {
         setTitle("");

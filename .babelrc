@@ -1,7 +1,9 @@
 {
     "presets": [
         "@babel/env",
-        "@babel/react"
+        "@babel/react",
+        "env"
+        
     ],
     "plugins": [
         // "@babel/plugin-proposal-nullish-coalescing-operator",
